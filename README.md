@@ -114,15 +114,3 @@ graph TD
      ```
 4. Access the web app:
    Open your browser at `http://localhost:5173`.
-
----
-
-## Troubleshooting
-
-### Windows Command Separator Issue (`'t' is not recognized`)
-If your project directory includes an ampersand (`&`) (e.g., `l&t - internship`), running `npm run dev` might fail because the Windows command processor splits the path at the `&`. 
-
-**Fix:** Bypass the npm batch scripts and start Vite directly via Node:
-```powershell
-node node_modules/vite/bin/vite.js
-```
