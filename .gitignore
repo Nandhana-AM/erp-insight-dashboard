@@ -1,0 +1,33 @@
+# Environments and Secrets
+.env
+.env.*
+!.env.example
+pgdata/
+
+# Python Caches & Virtualenvs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node.js
+node_modules/
+dist/
+dist-ssr/
+*.local
+.eslintcache
+
+# Logs
+logs/
+*.log
+
+# OS Metadata
+.DS_Store
+Thumbs.db
